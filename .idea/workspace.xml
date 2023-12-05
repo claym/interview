@@ -4,37 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ce9b227-9550-4b2f-87b1-579f9cefa6b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/DefaultClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/DoubleListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/MergeSorted21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/ReverseIterative260.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/ReverseRecursive260.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/recursion/ClimbingStairs70.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/recursion/FibonacciIterative509.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/recursion/FibonacciRecursive509.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/DefaultTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/linkedlist/ListNodeTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/linkedlist/MergeSortedTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/linkedlist/MyLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/linkedlist/ReverseIterativeTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/linkedlist/ReverseRecursiveTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/recursion/ClimbingStairsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/recursion/FactorialTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/recursion/FibonacciIterativeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/recursion/FibonacciRecursiveTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="2ce9b227-9550-4b2f-87b1-579f9cefa6b1" name="Changes" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,20 +70,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\clay\Projects\interview\src\main\java\net\claymitchell\neetcode" />
