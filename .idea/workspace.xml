@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ce9b227-9550-4b2f-87b1-579f9cefa6b1" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="2ce9b227-9550-4b2f-87b1-579f9cefa6b1" name="Changes" comment="fix merge issues">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/arrays/ProductExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/MergedSortedRecursive21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/arrays/ProductExceptSelfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/linkedlist/MergeSortedRecursiveTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,32 +76,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\clay\Projects\interview\src\main\java\net\claymitchell\neetcode" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="net.claymitchell.neetcode.recursion" />
       <recent name="net.claymitchell.neetcode.linkedlist" />
+      <recent name="net.claymitchell.neetcode.recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MyLinkedListTest.failure2">
-    <configuration name="ClimbingStairsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ProductExceptSelfTest.sequential">
+    <configuration name="MergeSortedRecursiveTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -111,7 +114,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;net.claymitchell.neetcode.recursion.ClimbingStairsTest&quot;" />
+            <option value="&quot;net.claymitchell.neetcode.linkedlist.MergeSortedRecursiveTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -121,7 +124,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FibonacciRecursiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeSortedRecursiveTests.realTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -134,7 +137,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;net.claymitchell.neetcode.recursion.FibonacciRecursiveTest&quot;" />
+            <option value="&quot;net.claymitchell.neetcode.linkedlist.MergeSortedRecursiveTests.realTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -144,7 +147,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MyLinkedListTest.example" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeSortedTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -157,30 +160,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;net.claymitchell.neetcode.linkedlist.MyLinkedListTest.example&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MyLinkedListTest.failure1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;net.claymitchell.neetcode.linkedlist.MyLinkedListTest.failure1&quot;" />
+            <option value="&quot;net.claymitchell.neetcode.linkedlist.MergeSortedTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -213,13 +193,36 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ProductExceptSelfTest.sequential" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;net.claymitchell.neetcode.arrays.ProductExceptSelfTest.sequential&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ProductExceptSelfTest.sequential" />
+        <item itemvalue="Gradle.MergeSortedRecursiveTests" />
+        <item itemvalue="Gradle.MergeSortedTests" />
+        <item itemvalue="Gradle.MergeSortedRecursiveTests.realTest" />
         <item itemvalue="Gradle.MyLinkedListTest.failure2" />
-        <item itemvalue="Gradle.MyLinkedListTest.failure1" />
-        <item itemvalue="Gradle.MyLinkedListTest.example" />
-        <item itemvalue="Gradle.ClimbingStairsTest" />
-        <item itemvalue="Gradle.FibonacciRecursiveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +235,16 @@
       <option name="presentableId" value="Default" />
       <updated>1701546103259</updated>
       <workItem from="1701546104452" duration="26559000" />
+      <workItem from="1701813515004" duration="958000" />
     </task>
+    <task id="LOCAL-00001" summary="fix merge issues">
+      <created>1701810608554</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701810608554</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +263,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fix merge issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix merge issues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -269,11 +283,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/ReverseRecursive260.java</url>
           <line>10</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/MergeSorted21.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/recursion/FibonacciIterative509.java</url>
@@ -394,6 +403,41 @@
           <url>file://$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/linkedlist/MyLinkedListTest.java</url>
           <line>64</line>
           <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/MergedSortedRecursive21.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/MergedSortedRecursive21.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/MergedSortedRecursive21.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/linkedlist/MergeSortedRecursiveTests.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/MergedSortedRecursive21.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/MergedSortedRecursive21.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/arrays/ProductExceptSelf.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
