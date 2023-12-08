@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ce9b227-9550-4b2f-87b1-579f9cefa6b1" name="Changes" comment="fix merge issues">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/arrays/ProductExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/MergedSortedRecursive21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/arrays/ProductExceptSelfTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/linkedlist/MergeSortedRecursiveTests.java" afterDir="false" />
+    <list default="true" id="2ce9b227-9550-4b2f-87b1-579f9cefa6b1" name="Changes" comment="product except self&#10;merge sort recursive">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/binarysearch/SearchArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/queue/StudentNoLunch1700.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/sort/SortArrayMerge912.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/binarysearch/SearchArrayTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/queue/StudentNoLunchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/sort/SortTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,12 +100,13 @@
       <recent name="C:\Users\clay\Projects\interview\src\main\java\net\claymitchell\neetcode" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.claymitchell.neetcode.arrays" />
       <recent name="net.claymitchell.neetcode.linkedlist" />
       <recent name="net.claymitchell.neetcode.recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ProductExceptSelfTest.sequential">
-    <configuration name="MergeSortedRecursiveTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SearchArrayTests">
+    <configuration name="SearchArrayTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -114,7 +119,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;net.claymitchell.neetcode.linkedlist.MergeSortedRecursiveTests&quot;" />
+            <option value="&quot;net.claymitchell.neetcode.binarysearch.SearchArrayTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -124,7 +129,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MergeSortedRecursiveTests.realTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SearchArrayTests.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -137,7 +142,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;net.claymitchell.neetcode.linkedlist.MergeSortedRecursiveTests.realTest&quot;" />
+            <option value="&quot;net.claymitchell.neetcode.binarysearch.SearchArrayTests.test1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,7 +152,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MergeSortedTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SearchArrayTests.test3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -160,7 +165,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;net.claymitchell.neetcode.linkedlist.MergeSortedTests&quot;" />
+            <option value="&quot;net.claymitchell.neetcode.binarysearch.SearchArrayTests.test3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -170,7 +175,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MyLinkedListTest.failure2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SearchArrayTests.test4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -183,7 +188,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;net.claymitchell.neetcode.linkedlist.MyLinkedListTest.failure2&quot;" />
+            <option value="&quot;net.claymitchell.neetcode.binarysearch.SearchArrayTests.test4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,7 +198,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ProductExceptSelfTest.sequential" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SortTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -206,7 +211,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;net.claymitchell.neetcode.arrays.ProductExceptSelfTest.sequential&quot;" />
+            <option value="&quot;net.claymitchell.neetcode.sort.SortTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -218,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ProductExceptSelfTest.sequential" />
-        <item itemvalue="Gradle.MergeSortedRecursiveTests" />
-        <item itemvalue="Gradle.MergeSortedTests" />
-        <item itemvalue="Gradle.MergeSortedRecursiveTests.realTest" />
-        <item itemvalue="Gradle.MyLinkedListTest.failure2" />
+        <item itemvalue="Gradle.SearchArrayTests" />
+        <item itemvalue="Gradle.SearchArrayTests.test4" />
+        <item itemvalue="Gradle.SearchArrayTests.test3" />
+        <item itemvalue="Gradle.SearchArrayTests.test1" />
+        <item itemvalue="Gradle.SortTests" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +240,10 @@
       <option name="presentableId" value="Default" />
       <updated>1701546103259</updated>
       <workItem from="1701546104452" duration="26559000" />
-      <workItem from="1701813515004" duration="958000" />
+      <workItem from="1701813515004" duration="6980000" />
+      <workItem from="1701872679715" duration="12580000" />
+      <workItem from="1701980591233" duration="3118000" />
+      <workItem from="1702051067721" duration="2506000" />
     </task>
     <task id="LOCAL-00001" summary="fix merge issues">
       <created>1701810608554</created>
@@ -244,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701810608554</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="product except self&#10;merge sort recursive">
+      <created>1701814577658</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701814577658</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +279,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fix merge issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix merge issues" />
+    <MESSAGE value="product except self&#10;merge sort recursive" />
+    <option name="LAST_COMMIT_MESSAGE" value="product except self&#10;merge sort recursive" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -438,6 +454,81 @@
           <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/arrays/ProductExceptSelf.java</url>
           <line>16</line>
           <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/linkedlist/ReverseRecursive260.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/queue/StudentNoLunch1700.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/sort/SortTests.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/sort/SortTests.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/sort/SortArrayMerge912.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/sort/SortArrayMerge912.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/sort/SortArrayMerge912.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/sort/SortArrayMerge912.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/sort/SortArrayMerge912.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/sort/SortArrayMerge912.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/sort/SortArrayMerge912.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/binarysearch/SearchArray.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/binarysearch/SearchArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/binarysearch/SearchArray.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/binarysearch/SearchArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
