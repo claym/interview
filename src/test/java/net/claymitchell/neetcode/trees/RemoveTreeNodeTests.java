@@ -61,4 +61,49 @@ public class RemoveTreeNodeTests {
         assertEquals(1, root.left.left.val);
         assertNull(root.left.right);
     }
+
+    @Test
+    void removeTopNode() {
+        TreeNode root = new TreeNode(10);
+        TreeNode.insertIntoBST(root, 5);
+        TreeNode.insertIntoBST(root, 2);
+        TreeNode.insertIntoBST(root, 15);
+        TreeNode.insertIntoBST(root, 14);
+        TreeNode.insertIntoBST(root, 13);
+        TreeNode.insertIntoBST(root, 20);
+        TreeNode.insertIntoBST(root, 25);
+        TreeNode.removeFromBST(root, 10);
+        assertEquals(13, root.val);
+        assertNull(root.right.left.left);
+    }
+    @Test
+    void removeMiddleNode() {
+        TreeNode root = new TreeNode(10);
+        TreeNode.insertIntoBST(root, 5);
+        TreeNode.insertIntoBST(root, 2);
+        TreeNode.insertIntoBST(root, 15);
+        TreeNode.insertIntoBST(root, 14);
+        TreeNode.insertIntoBST(root, 13);
+        TreeNode.insertIntoBST(root, 20);
+        TreeNode.insertIntoBST(root, 25);
+        TreeNode.removeFromBST(root, 15);
+        assertEquals(20, root.right.val);
+        //assertNull(root.right.left.left);
+    }
+
+    @Test
+    void removeMiddleNode2() {
+        TreeNode root = new TreeNode(10);
+        TreeNode.insertIntoBST(root, 5);
+        TreeNode.insertIntoBST(root, 2);
+        TreeNode.insertIntoBST(root, 15);
+        TreeNode.insertIntoBST(root, 14);
+        TreeNode.insertIntoBST(root, 13);
+        TreeNode.insertIntoBST(root, 20);
+        TreeNode.insertIntoBST(root, 19);
+        TreeNode.insertIntoBST(root, 25);
+        TreeNode.removeFromBST(root, 15);
+        assertEquals(19, root.right.val);
+        //assertNull(root.right.left.left);
+    }
 }

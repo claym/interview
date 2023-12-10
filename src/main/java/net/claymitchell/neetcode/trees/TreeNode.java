@@ -58,15 +58,26 @@ public class TreeNode {
             if(root.right == null && root.left == null) {
                 return null;
             }
-            if(root.right == null) {
-                return root.left;
-            }
             if(root.left == null) {
                 return root.right;
             }
+            if(root.right == null) {
+                return root.left;
+            }
 
+            TreeNode minNode = findMinimum(root.right);
+            root.val = minNode.val;
+            root.right = removeFromBST(root.right, minNode.val);
         }
         return root;
+    }
+
+    private static TreeNode findMinimum(TreeNode root) {
+        TreeNode curr = root;
+        while(curr != null && curr.left != null) {
+            curr = curr.left;
+        }
+        return curr;
     }
 
     @Override
