@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ce9b227-9550-4b2f-87b1-579f9cefa6b1" name="Changes" comment="added a bunch of search and sort stuff">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/binarysearch/SearchRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/binarysearch/SearchRangeTest.java" afterDir="false" />
+    <list default="true" id="2ce9b227-9550-4b2f-87b1-579f9cefa6b1" name="Changes" comment="search range">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/binarysearch/BadVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/trees/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/trees/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/binarysearch/BadVersionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/trees/InsertTreeNodeTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/trees/RemoveTreeNodeTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +70,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2Z05LgMKjrysussxN2TfAXsu3EL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -99,8 +106,8 @@
       <recent name="net.claymitchell.neetcode.recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchRangeTest">
-    <configuration name="SearchRangeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.RemoveTreeNodeTests">
+    <configuration name="BadVersionTests.testDefined" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -113,7 +120,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;net.claymitchell.neetcode.binarysearch.SearchRangeTest&quot;" />
+            <option value="&quot;net.claymitchell.neetcode.binarysearch.BadVersionTests.testDefined&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -123,7 +130,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SearchRangeTest.testFailed1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BadVersionTests.testRandom" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -136,7 +143,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;net.claymitchell.neetcode.binarysearch.SearchRangeTest.testFailed1&quot;" />
+            <option value="&quot;net.claymitchell.neetcode.binarysearch.BadVersionTests.testRandom&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -146,7 +153,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SearchRangeTest.testInvalid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InsertTreeNodeTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -159,7 +166,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;net.claymitchell.neetcode.binarysearch.SearchRangeTest.testInvalid&quot;" />
+            <option value="&quot;net.claymitchell.neetcode.trees.InsertTreeNodeTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -169,7 +176,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SearchRangeTest.testRandom" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveTreeNodeTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -182,7 +189,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;net.claymitchell.neetcode.binarysearch.SearchRangeTest.testRandom&quot;" />
+            <option value="&quot;net.claymitchell.neetcode.trees.RemoveTreeNodeTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -192,7 +199,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SearchRangeTest.testSingle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveTreeNodeTests.removeNodeLeft" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -205,7 +212,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;net.claymitchell.neetcode.binarysearch.SearchRangeTest.testSingle&quot;" />
+            <option value="&quot;net.claymitchell.neetcode.trees.RemoveTreeNodeTests.removeNodeLeft&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -217,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SearchRangeTest" />
-        <item itemvalue="Gradle.SearchRangeTest.testFailed1" />
-        <item itemvalue="Gradle.SearchRangeTest.testRandom" />
-        <item itemvalue="Gradle.SearchRangeTest.testSingle" />
-        <item itemvalue="Gradle.SearchRangeTest.testInvalid" />
+        <item itemvalue="Gradle.RemoveTreeNodeTests" />
+        <item itemvalue="Gradle.RemoveTreeNodeTests.removeNodeLeft" />
+        <item itemvalue="Gradle.InsertTreeNodeTests" />
+        <item itemvalue="Gradle.BadVersionTests.testRandom" />
+        <item itemvalue="Gradle.BadVersionTests.testDefined" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +245,7 @@
       <workItem from="1701872679715" duration="12580000" />
       <workItem from="1701980591233" duration="3118000" />
       <workItem from="1702051067721" duration="3429000" />
-      <workItem from="1702147933635" duration="2266000" />
+      <workItem from="1702147933635" duration="11309000" />
     </task>
     <task id="LOCAL-00001" summary="fix merge issues">
       <created>1701810608554</created>
@@ -261,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702072305347</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="search range">
+      <created>1702150470940</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702150470940</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +297,8 @@
     <MESSAGE value="fix merge issues" />
     <MESSAGE value="product except self&#10;merge sort recursive" />
     <MESSAGE value="added a bunch of search and sort stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a bunch of search and sort stuff" />
+    <MESSAGE value="search range" />
+    <option name="LAST_COMMIT_MESSAGE" value="search range" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -562,6 +577,51 @@
           <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/binarysearch/SearchRange.java</url>
           <line>24</line>
           <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/binarysearch/BadVersion.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/binarysearch/BadVersion.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/binarysearch/BadVersion.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/binarysearch/BadVersion.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/trees/TreeNode.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/trees/TreeNode.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/claymitchell/neetcode/trees/TreeNode.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/trees/RemoveTreeNodeTests.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/net/claymitchell/neetcode/trees/RemoveTreeNodeTests.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="130" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
