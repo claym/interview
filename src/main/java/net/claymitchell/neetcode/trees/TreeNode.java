@@ -1,11 +1,13 @@
 package net.claymitchell.neetcode.trees;
 
 
+import java.util.List;
+
 // Definition for a binary tree node.
 public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
+    public int val;
+    public TreeNode left;
+    public  TreeNode right;
 
     TreeNode() {
     }
@@ -78,6 +80,33 @@ public class TreeNode {
             curr = curr.left;
         }
         return curr;
+    }
+
+    public static void inOrder(TreeNode root, List<Integer> list) {
+        if(root == null)
+            return;
+
+        inOrder(root.left,list);
+        list.add(root.val);
+        inOrder(root.right, list);
+    }
+
+    public static void preOrder(TreeNode root, List<Integer> list) {
+        if(root == null)
+            return;
+
+        list.add(root.val);
+        preOrder(root.left,list);
+        preOrder(root.right, list);
+    }
+
+    public static void postOrder(TreeNode root, List<Integer> list) {
+        if(root == null)
+            return;
+
+        postOrder(root.left,list);
+        postOrder(root.right, list);
+        list.add(root.val);
     }
 
     @Override
