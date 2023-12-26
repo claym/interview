@@ -14,7 +14,7 @@ public class IslandCountTest {
                 {'1', '1', '0', '0', '0'},
                 {'0', '0', '0', '0', '0'}
         };
-        IslandCount ic = new IslandCount();
+        IslandCount200 ic = new IslandCount200();
         assertEquals(1, ic.numIslands(grid));
     }
 
@@ -26,7 +26,7 @@ public class IslandCountTest {
                 {'0', '0', '1', '0', '0'},
                 {'0', '0', '0', '1', '1'}
         };
-        IslandCount ic = new IslandCount();
+        IslandCount200 ic = new IslandCount200();
         assertEquals(3, ic.numIslands(grid));
     }
 
@@ -38,14 +38,14 @@ public class IslandCountTest {
                 {'0', '0', '0', '0', '0'},
                 {'0', '0', '0', '0', '0'}
         };
-        IslandCount ic = new IslandCount();
+        IslandCount200 ic = new IslandCount200();
         assertEquals(0, ic.numIslands(grid));
     }
 
     @Test
     void nullIslandTest() {
         char[][] grid = null;
-        IslandCount ic = new IslandCount();
+        IslandCount200 ic = new IslandCount200();
         assertEquals(0, ic.numIslands(grid));
         grid = new char[0][0];
         assertEquals(0, ic.numIslands(grid));

@@ -6,7 +6,7 @@ package net.claymitchell.neetcode.graph.matrixdfs;
  * zero them out, so that once the DFS for the original is complete, we won't initiate it for any elements that are
  * attached to it
  */
-public class IslandCount {
+public class IslandCount200 {
 
 
     public int numIslands(char[][] grid) {
